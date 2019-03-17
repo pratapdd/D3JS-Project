@@ -1,0 +1,28 @@
+{
+  "key" : "IMPRESSIONS",
+  "total" : "50.000.000",
+  "light": "#75C4CE",
+  "dark": "#294854",
+  "device" : {
+    "Tablet": { 
+      "value": "20.000.000",
+      "percentage": "40%"
+    },
+    "Smartphone": { 
+      "value": "30.000.000",
+      "percentage": "60%"
+    }
+  },
+  "sales" : [
+    {"date": 1, "value": 1},
+    {"date": 2, "value": 5},
+    {"date": 3, "value": 8},
+    {"date": 4, "value": 6},
+    {"date": 5, "value": 5},
+    {"date": 6, "value": 5},
+    {"date": 7, "value": 3},
+    {"date": 8, "value": 4},
+    {"date": 9, "value": 2},
+    {"date": 10, "value": 1}
+  ]
+}

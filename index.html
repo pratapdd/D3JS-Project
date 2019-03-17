@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Reusable Donut Chart in D3 v4</title>
+    <link href="http://fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/webcomponentsjs/0.5.2/webcomponents.min.js"></script>
+  </head>
+  <style>
+
+    body {
+      font-family: 'Roboto', sans-serif;
+      color: #333333;
+    }
+
+    .container {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: center;
+      margin-top: 100px;
+    }
+
+  </style>
+<body>
+  <script src="https://d3js.org/d3.v4.min.js" ></script>
+  <script src="src/component/DonutChart.js"></script>
+
+  <link rel="import" href="./src/component/CustomCard.html">
+
+  <div class="container">
+    <custom-card type="revenue"></custom-card>
+    <custom-card type="impressions"></custom-card>
+    <custom-card type="visits"></custom-card>
+  </div>
+
+</body>
+</html>

@@ -1,0 +1,28 @@
+{
+  "key" : "REVENUE",
+  "total" : "200.000€",
+  "light": "#99BC6B",
+  "dark": "#465C2D",
+  "device" : {
+    "Tablet": { 
+      "value": "120.000€",
+      "percentage": "60%"
+    },
+    "Smartphone": { 
+      "value": "80.000€",
+      "percentage": "40%"
+    }
+  },
+  "sales" : [
+    {"date": 1, "value": 1},
+    {"date": 2, "value": 2},
+    {"date": 3, "value": 4},
+    {"date": 4, "value": 3},
+    {"date": 5, "value": 5},
+    {"date": 6, "value": 5},
+    {"date": 7, "value": 6},
+    {"date": 8, "value": 8},
+    {"date": 9, "value": 5},
+    {"date": 10, "value": 1}
+  ]
+}

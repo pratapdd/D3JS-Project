@@ -1,0 +1,84 @@
+<template id="custom-card-template">
+  <style> 
+    .card-container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .card__container-chart {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .card__container-bar {
+      display: flex;
+      flex-direction: row;
+      border-bottom: solid 1.5px lightgrey;
+      padding-bottom: 1em;
+      margin-left: 10px;
+      margin-right: 30px;
+    }
+
+    .card__container-right {
+      display: flex;
+      flex-direction: column; 
+      margin-left: auto;
+      align-items: flex-end;
+    }
+
+    .card__container-right-header {
+      display: flex;
+      font-weight: 600;
+    }
+
+    .card__container-right-text {
+      display: flex;
+      color: grey;
+      font-size: 0.9em;
+    }
+
+    .card__container-left {
+      display: flex;
+      align-items: flex-start;
+      flex-direction: column;
+    }
+
+    .card__container-left-header {
+      display: flex;
+      font-weight: 600;
+    }
+
+    .card__container-left-text {
+      display: flex;
+      color: grey;
+      font-size: 0.9em;
+    }
+
+    .dark-text {
+      color: black;
+    }
+
+    .grey-text {
+      color: grey;
+    }
+  </style>
+  <div class='card__container'>
+    <div id="chart" class="card__container-chart"></div>
+
+    <div class="card__container-bar">
+      <div class="card__container-left">
+        <div class="card__container-left-header">aa</div>
+        <div class="card__container-left-text"></div>
+      </div>
+      <div class="card__container-right">
+        <div class="card__container-right-header">bb</div>
+        <div class="card__container-right-text"></div>
+      </div>
+    </div>
+  </div>
+
+</template>
+<script src="CustomCard.js"></script>
