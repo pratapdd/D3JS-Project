@@ -13,4 +13,9 @@ http://localhost:8000/index.html
 ## data
 Data files are present under /data directory
 
-## 
+## There are two components
+
+## One Web component src/component/CustomCard
+
+## Second Component for Donut D3 JS Chart
+
